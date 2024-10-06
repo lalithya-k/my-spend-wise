@@ -6,7 +6,7 @@ auth_bp = Blueprint('auth', __name__)
 @auth_bp.route('/register', methods=['POST'])
 def register():
     data = request.json
-    result = register_user(data['username'], data['password'])
+    result = register_user(data['userName'], 'sample')
     return jsonify(result)
 
 @auth_bp.route('/login', methods=['POST'])
