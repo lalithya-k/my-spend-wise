@@ -11,7 +11,7 @@ const Intro = () => {
         const data = Object.fromEntries(formData.entries()); // Convert form data to an object
 
         try {
-            const response = await fetch("/api/auth/signup", { // Update endpoint to match your backend
+            const response = await fetch("http://localhost:5000/api/auth/register", { // Update endpoint to match your backend
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
