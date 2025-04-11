@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/8c7dc00a-37fe-404b-b04f-90ba02ace72d)## 
 ## SpendWise - ML-powered FinTech Platform
 
 SpendWise is a secure and intelligent personal finance management platform that combines machine learning, fraud detection, and a chatbot interface. Built using React, Flask, MongoDB, and scikit-learn, it offers users a comprehensive solution for expense tracking, fraud prevention, and financial assistance.
